@@ -1,0 +1,54 @@
+*{margin: 0%;
+padding: 0%;}
+
+
+.main{
+ background-color: green;
+border: 3px magenta solid;
+height: 100vh;
+
+}
+
+h2{
+    color: goldenrod;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 300;
+animation-name: animation;
+animation-iteration-count: infinite;
+animation-duration:4s;   
+position: relative;
+left: 200px;
+top: 130px;
+
+
+}
+
+@keyframes new {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:600px; top:0px;}
+    50%  {background-color:blue; left:600px; top:600px;}
+    75%  {background-color:green; left:0px; top:600px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+.main img{
+    animation-name: new;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+    border: 10px solid magenta;
+    position: relative;
+    height: 100px;
+    width: 100px;
+   
+}
+@keyframes animation{
+    10%{color: red;}
+  20%{color: yellow;}
+  30%{color: gray;}
+  40%{color:pink}
+  5%{color:aqua}
+
+
+  }
+  
